@@ -2,7 +2,7 @@
 A small python script to control brightness and contrast of Gigabyte G24F2 monitor in Linux. The OSD Sidekick software which controls the various settings of this monitor is only available for Windows. I wanted to do something similar using Linux as well. So here is my little try to make it work with Linux as well.
 
 # How to
-1. Copy 99-99-g24f2.rules to /etc/udev/rules.d/
+1. Copy 99-99-g24f2.rules to /etc/udev/rules.d/. Replace the GROUP and OWNER with respective values of your login. 
 
 2. Give exec perms
 chmod +x ./g24f2.py
