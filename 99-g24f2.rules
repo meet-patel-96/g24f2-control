@@ -1,0 +1,1 @@
+SUBSYSTEM=="usb", ATTR{idVendor}=="2109", ATTR{idProduct}=="8883", MODE="0666", GROUP="fenrir", OWNER="fenrir"
